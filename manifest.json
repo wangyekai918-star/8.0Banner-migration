@@ -19,17 +19,22 @@
     "修改时间"
   ],
   "stats": {
-    "records": 182,
+    "records": 183,
     "uniqueIds": 118,
     "sharedIds": 64,
     "uniqueUrls": 155,
     "downloadedUrls": 155,
     "terminals": {
       "APP轮播图": 94,
-      "小程序轮播图": 88
+      "小程序轮播图": 88,
+      "待补充": 1
     },
     "failedRecords": 0,
-    "uniqueImages": 127
+    "uniqueImages": 128,
+    "originalRecords": 182,
+    "supplementalRecords": 1,
+    "uniqueBanners": 119,
+    "pendingIds": 1
   },
   "records": [
     {
@@ -10893,6 +10898,58 @@
         "sha256": "820043a010dfd04fa62a978eb2143134354dc6611efec5248124082ffdcf848b",
         "src": "assets/7.0/d9250ca3-a413-4625-8c3f-61f549a39ba7__APP.png"
       }
+    },
+    {
+      "key": "supplement-119",
+      "id": "local-supplement-119",
+      "idPending": true,
+      "terminalPending": true,
+      "terminal": "待补充",
+      "sourceSheet": null,
+      "sourceRow": null,
+      "sourceType": "manual-supplement",
+      "sourceFilename": "404bbea83e1449849d2c1459d9240b2d.png",
+      "addedAt": "2026-09-21",
+      "title": "美团旅行 · 此地生活节",
+      "fields": {
+        "ID": null,
+        "终端类型": "待补充",
+        "运营公司": null,
+        "可用城市": null,
+        "反选城市": null,
+        "主标题": "美团旅行 · 此地生活节",
+        "下线时间": null,
+        "跳转类型": null,
+        "跳转内容": null,
+        "Banner图": "404bbea83e1449849d2c1459d9240b2d.png",
+        "创建人": null,
+        "最后修改人": null,
+        "创建时间": null,
+        "修改时间": null
+      },
+      "sameIdCount": 1,
+      "image": {
+        "src": "assets/7.0/119_此地生活节_原图.png",
+        "width": 1074,
+        "height": 315,
+        "format": "PNG",
+        "bytes": 102783,
+        "sha256": "199269c3992dacf5839643d768d94b3d8d436d6b809489578f8f36f31f8b191b"
+      },
+      "newImage": {
+        "src": "assets/8.0/119_此地生活节_8.0.jpg",
+        "width": 1000,
+        "height": 206,
+        "format": "JPEG",
+        "bytes": 197926,
+        "sha256": "10d22243b7e6ac9206fe8d1172cfa5488cc15e1c9212997a6725b2a8d7cba330",
+        "status": "generated",
+        "safeAreaHeight": 186,
+        "bottomExclusion": 20,
+        "method": "网关整体重新构图，保留原文与蓝黄配色、户外人物风格",
+        "sourceRecordKey": "supplement-119",
+        "sourceSha256": "199269c3992dacf5839643d768d94b3d8d436d6b809489578f8f36f31f8b191b"
+      }
     }
   ],
   "spec8": {
@@ -10904,5 +10961,14 @@
     "bottomExclusion": 20,
     "cornerExclusion": "重要内容避开四角裁切区域",
     "fullBleed": true
-  }
+  },
+  "supplements": [
+    {
+      "key": "supplement-119",
+      "filename": "404bbea83e1449849d2c1459d9240b2d.png",
+      "addedAt": "2026-09-21",
+      "metadataStatus": "pending",
+      "exportIncluded": false
+    }
+  ]
 }
